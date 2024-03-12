@@ -166,6 +166,40 @@ input[type="search"]{
     padding: 0 50px;
 }
 
+/* Food gallery Section */
+#food-gallery {
+    text-align: center;
+    padding: 20px;
+}
+
+#food-gallery > div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.food-card {
+    width: 150px;
+}
+
+.food-card h3 {
+    text-align: left;
+}
+
+.food-card img {
+    height: 200px;
+    width: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.food-card .rating {
+    font-size: 12px;
+}
+
 /* Read more section */
 .read-more-wrapper {
     display: flex;
@@ -202,11 +236,11 @@ input[type="search"]{
     color: #795548;
 }
 
-.arrow {
-    background-image: url("./assets/icon/right-arrow.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 24px;
+.arrow svg{
+    fill: #795548;
+    width: 20px;
+    height: 20px;
+    vertical-align: bottom;
 }
 
 .change-order{
