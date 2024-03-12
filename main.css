@@ -211,3 +211,19 @@ input[type="search"]{
 .change-order{
     order: 2;
 }
+
+/* Contact Section Style */
+#contact-callout {
+    text-align: center;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    background-color: rgba(235,227,187,1);
+}
+
+#contact-callout h2 {
+    font-size: 32px;
+    color: #795548;
+}
