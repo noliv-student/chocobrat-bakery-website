@@ -227,3 +227,43 @@ input[type="search"]{
     font-size: 32px;
     color: #795548;
 }
+
+/* Testimony Section Style */
+#testimony {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 25px;
+    margin: 50px auto;
+    width: 90%;
+}
+
+#testimony .sub-title {
+    font-size: 16px;
+    background-color: bisque;
+    color: #795548;
+    padding: 5px;
+}
+
+#testimony blockquote {
+    font-size: 48px;
+}
+
+#testimony img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 50px;
+}
+
+#testimony h3 {
+    font-size: 20px;
+    color: #795548;
+    margin-bottom: 5px;
+}
+
+#testimony p {
+    font-size: 18px;
+}
