@@ -32,8 +32,9 @@ h1{
 }
 
 .main-nav a:visited,
+.footer-nav a:visited,
 a:link {
-    color: black;
+    color: rgb(46, 45, 45);
 }
 
 a:hover,
@@ -41,7 +42,7 @@ a:active {
     color: rgb(216, 87, 87);
 }
 
-/* Navigation Style */
+/* Main Navigation Style */
 #nav-section{
     display: flex;
     justify-content: space-between;
@@ -103,10 +104,10 @@ input[type="search"]{
     display: flex;
     height: 300px;
     background: url("./assets/img/umesh-soni-chocolate-cake.jpg"), 
-        linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(235,227,187,1) 50%, rgba(232,219,151,1) 100%);
+        linear-gradient(to right, #ffffff, #fffdff, #fffcfd, #fffaf9, #fff9f5, #fef7ef, #fbf5e9, #f7f3e3, #f4efd9, #f1ebcf, #eee7c5, #ebe3bb);
     background-position: right;
     background-repeat: no-repeat;
-    background-size: 300px;
+    background-size: 300px, 100%;
     /* padding: 20px; */
 }
 
@@ -144,11 +145,11 @@ input[type="search"]{
 #first-callout {
     display: flex;
     justify-content: space-between;
+    background-image: linear-gradient(to right, #ffffff, #fffdff, #fffcfd, #fffaf9, #fff9f5, #fef7ef, #fbf5e9, #f7f3e3, #f4efd9, #f1ebcf, #eee7c5, #ebe3bb);
     gap: 10px;
     align-items: center;
-    width: 85%;
-    margin: 25px auto;
-    min-height: 100px;
+    min-height: 200px;
+    padding: 25px 0;
 }
 
 #first-callout h2 {
@@ -266,4 +267,40 @@ input[type="search"]{
 
 #testimony p {
     font-size: 18px;
+}
+
+/* Footer Style */
+footer {
+    background-color: #ebe3bb;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#footer-navigation,
+#footer-media {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    width: 80%;
+}
+
+.footer-nav ul,
+.media-nav ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.horizontal-line {
+    border: 1px solid #806e68;
+    width: 100%;
+}
+
+.media-nav svg {
+    width: 15px;
+    height: 15px;
+    fill: rgb(46, 45, 45);
 }
