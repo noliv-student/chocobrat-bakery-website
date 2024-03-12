@@ -89,14 +89,16 @@ input[type="search"]{
     display: flex;
 }
 
-.search-bar button{
-    background: url("./assets/icon/search.png"), #795548 ;
-    background-position: center;
-    background-repeat: no-repeat;
+.search-bar button {
+    background-color: #795548 ;
     border: 0;
-    background-size: 24px;
-    width: 27.6px;
-    height: 27.6px;
+    padding: 5px;
+}
+
+.search-bar svg{
+    fill: #fef7ef;
+    width: 15px;
+    height: 15px;
 }
 
 /* Banner style */
@@ -203,6 +205,7 @@ input[type="search"]{
 /* Read more section */
 .read-more-wrapper {
     display: flex;
+    margin-bottom: 25px;
     gap: 25px;
     padding: 20px;
 }
